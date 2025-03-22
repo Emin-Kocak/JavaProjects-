@@ -20,9 +20,6 @@ public class Recursive_factorial {
             return 1;
 
         }
-
-        int sum = num * recFac(num - 1);
-        return sum;
-
+        return num * recFac(num - 1);
     }
 }
